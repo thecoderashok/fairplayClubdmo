@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Demo Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100&display=swap" rel="stylesheet">
+
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+  
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<body data-theme="">
+    <header>
+      <div class="menu_button" id="menuBtn">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </div>
+
+      <div class="mobile_menu_container">
+        <div class="close_btn" id="menu_closeBtn">
+          <i class="fa-solid fa-xmark"></i>
+        </div>
+      </div>
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+              
+              <a href="#" class="brand-logo">
+                <img src="Assets/Images/logo.png" alt="">
+              </a>
+              
+
+
+              <div class="header-right-container">
+                <form class="col s12">
+                  <div class="row">
+                    <!-- <div class="country-select">
+                      IN
+                      <i class="material-icons ">arrow_drop_down</i>
+                    </div> -->
+                    <div class="input-field col s12 header-input">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email / Mobile Number</label>
+                      <a href="#">Remember me</a>
+                      <!-- <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
+                    </div>
+
+                    <div class="input-field col s12 header-input">
+                      <input id="password" type="email" class="validate">
+                      <label for="password">Password</label>
+                      <a href="#" >Forgot Password</a>
+                      <!-- <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
+                    </div>
+
+                    <button class="btn waves-effect waves-light loginBtn" type="submit" name="action">
+                      Login
+                    </button>
+                    
+                    <button class="btn waves-effect waves-light joinBtn" type="submit" name="action">
+                      Join Now
+                    </button>
+
+                    <div class="theme_button_container">
+                      <i id="lightModeBtn" class="fa-solid fa-sun"></i>
+                      <i id="darkModeBtn" class="fa-solid fa-moon"></i>
+                    </div>
+                  </div>
+                </form>
+              </div>
+
+
+            </div>
+
+            <div class="nav-content" >
+              <span id="scrollbtn_right" class="scrollBtn scroll_right_btn" >
+                <i class="fa-solid fa-angle-right"></i>
+              </span>
+              <span id="scrollbtn_left" class="scrollBtn scroll_left_btn">
+                <i class="fa-solid fa-angle-left"></i>
+              </span>
+              <ul class="tabs tabs-transparent" id="header_tab_carousel">
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/inplay.png" alt="">
+                  </span>
+                  <a href="#test1" class="active">INPLAY</a>
+                </li>
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/cricket-ball.png" alt="">
+                  </span>
+                  <a href="#test2">CRICKET</a></li>
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/football.png" alt="">
+                  </span>
+                  <a href="#test3">SOCCER</a></li>
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/tennis.png" alt="">
+                  </span>
+                  <a href="#test4">tENNIS</a></li>
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/premium.png" alt="">
+                  </span>
+                  <a href="#test4">premium sportsbook</a></li>
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/casino.png" alt="">
+                  </span>
+                  <a href="#test4">live casino</a></li>
+                <li class="tab">
+                  <span class="icon">
+                    <img src="Assets/Icons/live-card.png" alt="">
+                  </span>
+                  <a href="#test4">live card</a></li>
+                <li class="tab">
+                  <span class="icon"></span>
+                  <a href="#test4">slot games</a></li>
+              </ul>
+            </div>
+
+      
+          </nav>
+    </header>
+
+
+
+    <section>
+          <div class="owl-carousel owl-theme hero-carousel">
+            <div class="item hero_banner_container">
+              <img src="Assets/Images/banner1.jpeg" alt="">
+            </div>
+            <div class="item two">
+              <img src="Assets/Images/banner2.jpeg" alt="">
+            </div>
+            <div class="item three">
+              <img src="Assets/Images/banner3.jpeg" alt="">
+            </div>
+            <div class="item four">
+              <img src="Assets/Images/banner4.jpeg" alt="">
+            </div>
+         </div>
+          <div class="owl-carousel owl-theme hero-carousel mobile">
+            <div class="item hero_banner_container">
+              <img  src="Assets/Images/mobilebanner1.jpeg" alt="">
+            </div>
+            <div class="item two">
+              <img src="Assets/Images/mobilebanner2.jpeg" alt="">
+            </div>
+            <div class="item three">
+              <img src="Assets/Images/mobilebanner3.jpeg" alt="">
+            </div>
+            <div class="item four">
+              <img src="Assets/Images/mobilebanner4.jpeg" alt="">
+            </div>
+         </div>
+    </section>
+
+    <section class="second_section">
+      <div class="container">
+      <div class="row inner_container">
+        <div class="col s6 left-wrapper">
+          <h3 class="section_heading"><span>300% BONUS</span> ON YOUR FIRST DEPOSIT.</h3>
+          <p class="flow-text">Welcome to FairPlay- the world’s biggest betting exchange. We offer a wide range of options to bet on including sportsbook, live cards, live casino & horse racing.
+          </p>
+
+          <button class="waves-effect waves-light btn-large">JOIN NOW</button>
+
+        </div>
+        
+          <div class="row cards_flex_wrapper">
+            <div class="col s6 text-center ">
+              <div class="icon deposite">
+
+                <img  src="Assets/Icons/deposit-withdrawl.png" alt="">
+              </div>
+              <p class="flow-text bold-600">Instant Withdrawals & Deposits
+              </p>
+            </div>
+            <div class="col s6">
+              <div class="icon">
+                
+                <img  src="Assets/Icons/live-stream.png" alt="">
+              </div>
+              <p class="flow-text bold-600">Live Stream Of Events</p>
+            </div>
+            <div class="col s6 ">
+              <div class="icon">
+
+                <img  src="Assets/Icons/customer-support.png" alt="">
+              </div>
+              <p class="flow-text bold-600">24/7 Customer Service</p>
+            </div>
+            <div class="col s6">
+              <div class="icon">
+                
+                <img src="Assets/Icons/referral.png" alt="">
+              </div>
+              <p class="flow-text bold-600">15% Referral Bonus</p>
+            </div>
+          </div>
+        
+
+      </div>
+    </div>
+    </section>
+
+    
+    <section class="third_section">
+      <div class="container">
+        <div class="row inner_container">
+          <div class="col s12">
+            <h3 class="section_heading">WHY IS FAIRPLAY BETTER THAN OTHERS?</h3>
+            <p class="flow-text">FairPlay is India’s first and most trusted betting exchange that offers the likes of sports book and live casino and live Indian card games. Unlike most other betting sites, on FairPlay a user bets against other players and not the house thus maintaining transparency and increasing a player’s chances of winning.
+            </p>
+            <p class="flow-text">The greatest odds in the market are on FairPlay which means you win exceptionally more on FairPlay than anywhere else!
+            </p>
+          </div>
+        </div>
+
+        <div class="video_container">
+          <video  src="landing-promotion.mp4" ></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="forth_section">
+      <div class="container">
+        <h3 class="section_heading">KNOW MORE ABOUT GAMES</h3>
+
+        <div class="owl-carousel owl-theme games_carousel">
+          <div class="item waves-effect ">
+            
+          </div>
+          <div class="item two waves-effect ">
+            
+          </div>
+          <div class="item three waves-effect ">
+            
+          </div>
+          <div class="item four waves-effect ">
+            
+          </div>
+       </div>
+
+       <div class="col s12 text-center promotion_wrapper">
+         <h3 class="section_heading">PROMOTIONS</h3>
+         <p class="flow-text">Make the most of exciting offers ever so often on Fairplay! Watch out for various bonus offers and exciting contests!</p>
+
+         <div class="owl-carousel owl-theme promotion_carousel ">
+          <div class="item waves-effect ">
+            
+          </div>
+          <div class="item two waves-effect ">
+            
+          </div>
+          <div class="item three waves-effect ">
+            
+          </div>
+          <div class="item four waves-effect ">
+            
+          </div>
+         </div>
+
+         <div class="col s12 text-center">
+          <button class="waves-effect waves-light btn-large">KNOW MORE</button>
+          <button class="waves-effect waves-light btn-large">JOIN NOW</button>
+         </div>
+
+       </div>
+      </div>
+    </section>
+
+    <section class="fifth_section">
+      <div class="container">
+        <div class="col s12 text-center">
+          <h3 class="section_heading">GAME PROVIDERS</h3>
+
+          <div class="col s12 text-center">
+            <div class="owl-carousel owl-theme game_providers_carousel ">
+              <div class="item">
+                
+              </div>
+              <div class="item">
+                
+              </div>
+              <div class="item">
+                
+              </div>
+              <div class="item">
+                
+              </div>
+             </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="sixth_section">
+      <div class="container">
+        <div class="row ">
+        <div class="col s6">
+          <img class="banner" src="Assets/Images/fairplay-app-banner.jpg" alt="">
+        </div>
+        <div class="col s6">
+          <h3 class="section_heading">DOWNLOAD THE APP</h3>
+          <p class="flow-text">
+            Now download the FairPlay app and get easier, quicker access to your winnings!
+          </p>
+          <button class="waves-effect waves-light btn-large">DOWNLOAD APP</button>
+          <span class="download_instruction">Download now outside Google Playstore</span>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    
+      <div class="app_download_cta">
+        <span>Download App</span>
+        <i class="fa-solid fa-download"></i>
+      </div>
+      <div class="helpline_cta">
+        <span>Helpline</span>
+        <a href="">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+       
+      </div>
+    
+
+    <footer>
+      <div class="row container">
+        <div class="col s4">
+          <a class="footer_logo">
+            <img class="dark_mode_logo"  src="Assets/Images/logo.png" alt="">
+            <img class="light_mode_logo" src="Assets/Images/logo-blue.png" alt="">
+          </a>
+          <p>Hattrickk is Asia’s one of the biggest gaming platforms with over 350 games and sports available.</p>
+          <p>Popular sports such as Cricket, Tennis, Football, Basketball, Volleyball and many more including Indian card games like Teen Patti and Andar Bahar are also available from various worldwide gaming providers.</p>
+          <p>With unlimited markets and odds, Hattrickk gives players the best gaming experience in the market.</p>
+        </div>
+
+        <div class="col s4 wrapper">
+          <h4>100% Safe & Instant Payments</h4>
+          <p>You can make payments and receive earnings instantly via your UPI ID - so you can be sure that your money is safe and secure. All UPI platforms are accepted.</p>
+        </div>
+
+        <div class="col s4 wrapper">
+          <h4>Accepted Modes Of Payments</h4>
+
+          <div>
+            <h4>Contact Us</h4>
+            <p class="contact_info phone_number">
+              <i class="material-icons">mail</i>
+              +1-93903729002</p>
+            <p class="contact_info email">
+              <i class="material-icons">phone</i>
+              info@hattrickk.com
+            </p>
+          </div>
+        </div>
+
+
+        
+          <div class="nav-wrapper">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a >About</a></li>
+              <li><a >Ruels & Regulation</a></li>
+              <li><a >Tearms & Condition</a></li>
+              <li><a >Privacy Policy</a></li>
+              <li><a >Play Responsibly</a></li>
+            </ul>
+          </div>
+          <div class="nav-wrapper social-media">
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+              <li><a>Instagram</a></li>
+              <li><a>Facebook</a></li>
+              <li><a>Twitter</a></li>
+              <li><a>Telegrm</a></li>
+              <li><a>Whatsapp</a></li>
+            </ul>
+          </div>
+        
+      
+      </div>
+    </footer>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+<script src="main.js"></script>
+    
+</html>
