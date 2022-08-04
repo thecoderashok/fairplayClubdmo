@@ -487,11 +487,11 @@ body[data-theme ="light"] .section_heading{
 .third_section{
     width: 100%;
     min-height: 60rem;
-    /* background-color: rgb(27, 27, 27) !important; */
+    background-color: rgb(27, 27, 27) !important;
     background: url(Assets/Images/Pattern-Background-Black.jpg);
     background-position: center center;
     background-size: cover;
-
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -532,7 +532,6 @@ body[data-theme ="light"] .third_section p{
 video{
    width: 100%;
    height: auto;
-   
 }
 
 

@@ -8,8 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <title>Demo Landing Page</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/Responsive.css">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 
@@ -43,7 +45,7 @@
 
 </head>
 <body data-theme="">
-    <header>
+    <header class="main_header">
       <div class="menu_button" id="menuBtn">
         <i class="fa-solid fa-bars-staggered"></i>
       </div>
@@ -98,17 +100,16 @@
                   </div>
                 </form>
               </div>
-
-
             </div>
 
             <div class="nav-content" >
-              <span id="scrollbtn_right" class="scrollBtn scroll_right_btn" >
-                <i class="fa-solid fa-angle-right"></i>
-              </span>
-              <span id="scrollbtn_left" class="scrollBtn scroll_left_btn">
-                <i class="fa-solid fa-angle-left"></i>
-              </span>
+                <span id="scrollbtn_right" class="scrollBtn scroll_right_btn" >
+                  <i class="fa-solid fa-angle-right"></i>
+                </span>
+                <span id="scrollbtn_left" class="scrollBtn scroll_left_btn">
+                  <i class="fa-solid fa-angle-left"></i>
+                </span>
+
               <ul class="tabs tabs-transparent" id="header_tab_carousel">
                 <li class="tab">
                   <span class="icon">
@@ -158,7 +159,7 @@
 
 
 
-    <section>
+    <section  class="hero_section">
           <div class="owl-carousel owl-theme hero-carousel">
             <div class="item hero_banner_container">
               <img src="Assets/Images/banner1.jpeg" alt="">

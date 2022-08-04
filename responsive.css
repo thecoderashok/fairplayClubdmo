@@ -99,12 +99,12 @@ body{
 
     nav .brand-logo{
         left: 8% !important;
-        top: 25% !important;
+        top: 10% !important;
         margin: 0 !important;
         transform: translateX(0) !important;
     }
     nav .brand-logo img{
-        width: 7rem;
+        width: 8rem;
     }
 
     .tabs {
@@ -199,7 +199,7 @@ body{
     }
 
     .second_section .left-wrapper .flow-text{
-        font-size: .9rem !important;
+        font-size: 1rem !important;
         padding-right: 0 !important;
     }
 
@@ -367,9 +367,6 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  
-
-     
     .cards_flex_wrapper .col{
         width: 50% !important;
         min-height: 150px !important;
@@ -399,7 +396,6 @@ body{
 
     footer .row.container{
         display: flex !important;
-
         flex-direction: column !important;
     }
     footer .row.container .col{
