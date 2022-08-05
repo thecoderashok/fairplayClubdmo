@@ -1,5 +1,4 @@
 html {
-  font-family: "Lato", sans-serif !important;
   overflow-x: hidden !important;
   margin: 0;
   padding: 0;
@@ -10,6 +9,7 @@ body {
   margin: 0 !important;
   --header-color: #0134A9;
   --primary-color: #0134A9;
+  font-family: "Montserrat", sans-serif;
 }
 
 section {
@@ -74,7 +74,8 @@ section {
   text-align: right;
   line-height: 2;
   margin-top: -0.5rem;
-  font-size: 13px;
+  font-size: 12px;
+  font-weight: 600 !important;
   color: rgb(176, 176, 176);
 }
 .main_header .nav-wrapper .header-right-container .header-input input {
@@ -91,7 +92,7 @@ section {
 }
 .main_header .nav-wrapper .header-right-container .header-input label {
   top: -20% !important;
-  font-size: 17px !important;
+  font-size: 13px !important;
   color: white !important;
 }
 .main_header .nav-wrapper .header-right-container .loginBtn, .main_header .nav-wrapper .header-right-container .joinBtn {
@@ -190,11 +191,13 @@ section {
 }
 .main_header .nav-content .tabs .tab a {
   padding: 0 10px !important;
+  font-size: 0.8rem;
+  font-weight: 600 !important;
 }
 .main_header .nav-content .tabs .tab span {
   position: relative;
-  min-width: 35px;
-  height: 35px;
+  min-width: 30px;
+  height: 30px;
   background: transparent;
   border-radius: 50%;
   pointer-events: none !important;
@@ -293,7 +296,7 @@ section {
 }
 
 .container {
-  width: 78% !important;
+  width: 90% !important;
 }
 
 .col {
@@ -366,6 +369,8 @@ section {
   margin: 0 !important;
   color: #f1f1f1;
   text-align: center;
+  width: 80%;
+  font-size: 1.2rem !important;
 }
 .second_section .cards_flex_wrapper .col {
   display: flex !important;
@@ -405,7 +410,8 @@ section {
   padding-bottom: 4rem;
 }
 .third_section .section_heading {
-  width: 45%;
+  width: 48%;
+  font-weight: 700;
 }
 .third_section p {
   width: 80%;
@@ -438,6 +444,9 @@ section {
 }
 .forth_section .container {
   color: white;
+}
+.forth_section .container .section_heading {
+  font-weight: 600;
 }
 .forth_section .container .promotion_wrapper {
   margin-top: 5rem;
@@ -476,6 +485,9 @@ section {
 .fifth_section .container {
   max-width: 60% !important;
 }
+.fifth_section .container .section_heading {
+  font-weight: 600;
+}
 .fifth_section .container .game_providers_carousel {
   position: relative;
   min-height: 20rem !important;
@@ -503,7 +515,7 @@ section {
 .sixth_section .container .row .section_heading {
   position: relative;
   font-weight: 700;
-  font-size: 3.3rem !important;
+  font-size: 3rem !important;
   z-index: 1;
 }
 .sixth_section .container .row .flow-text {
@@ -564,9 +576,13 @@ footer .container .col p {
   color: #d7d7d7;
 }
 footer .container .col.wrapper h4 {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   color: #7da5ff;
   font-weight: 600;
+}
+footer .container .col .payment_options_brands_logo {
+  width: 15rem;
+  height: auto;
 }
 footer .container .nav-wrapper {
   position: absolute;
@@ -591,7 +607,7 @@ footer .container .nav-wrapper ul li {
   padding: 0 1rem;
   border-left: 0.12rem solid #7da5ff;
   line-height: normal !important;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   cursor: pointer;
 }
@@ -620,7 +636,7 @@ footer .container .contact_info i {
 }
 
 .app_download_cta {
-  min-width: 14rem;
+  min-width: 13rem;
   height: auto;
   background: var(--primary-color);
   position: fixed;
@@ -630,9 +646,9 @@ footer .container .contact_info i {
   z-index: 99;
   transform-origin: left;
   color: white;
-  padding: 0.8rem 2rem;
+  padding: 0.8rem 1.5rem;
   border-radius: 0.2rem;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
@@ -671,10 +687,10 @@ footer .container .contact_info i {
   margin-left: 0.5rem;
 }
 .helpline_cta a {
-  margin-left: 0.2rem;
+  margin-left: 0.3rem;
 }
 .helpline_cta a i {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   position: relative;
   transform: rotate(90deg);
   color: white;

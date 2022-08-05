@@ -170,6 +170,7 @@
     }
 
     .second_section{
+       
         .inner_container{
             display: flex;
             justify-content: center;
@@ -180,8 +181,11 @@
         .left-wrapper{
             width: 100% !important;
             .flow-text{
-                font-size: 1.2rem !important;
+                font-size: 1.1rem !important;
                 padding-right: 0 !important;
+            }
+            .section_heading{
+                font-size: 2.7rem !important;
             }
         
         }
@@ -342,6 +346,7 @@
     }
 
     footer{
+        overflow-x: hidden;
         .container{
             .nav-wrapper{
                 position: absolute;
@@ -358,7 +363,8 @@
 
                 ul{
                     li{
-                        font-size: .8rem;
+                        font-size: .7rem;
+                        font-weight: 500 !important;
                     }
                 }
             }
@@ -366,13 +372,15 @@
             .col{
                 &.wrapper{
                     h4{
-                        font-size: 1.1rem;
+                        font-size: 1rem;
                     }
                 }
                 p{
-                    font-size: .8rem;
+                    font-size: .7rem !important;
                     color: #d7d7d7;
                 }
+
+
             }
 
 
