@@ -37,7 +37,11 @@ $(document).ready(function() {
                 items : 2, 
                 
             },
-            400 : {
+            570 : {
+                items : 2, 
+                
+            },
+            600 : {
                 items : 3, 
                 
             },
@@ -103,24 +107,6 @@ $(document).ready(function() {
     M.updateTextFields();
   });
       
-
-
-//   $('.owl-carousel').owlCarousel({
-//     loop:true,
-//     margin:10,
-//     nav:true,
-//     responsive:{
-//         0:{
-//             items:1
-//         },
-//         600:{
-//             items:3
-//         },
-//         1000:{
-//             items:5
-//         }
-//     }
-// })
 
 
 const menuBtn = document.getElementById("menuBtn");

@@ -42,25 +42,26 @@
     align-items: flex-start;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 0;
-    padding-top: 5rem !important;
-    padding-left: 3%;
+    padding: 0 !important;
   }
   .main_header .nav-wrapper .header-right-container {
     min-width: 80%;
   }
   .main_header .nav-wrapper .header-right-container .row {
     display: flex;
-    justify-content: flex-start !important;
+    justify-content: flex-end !important;
+  }
+  .main_header .nav-content .scrollBtn {
+    display: flex !important;
   }
   .main_header .nav-content .tabs {
     display: flex !important;
     justify-content: flex-start;
+    padding-left: 1.5rem !important;
   }
   .main_header .nav-content ul {
     justify-content: flex-start !important;
-    padding-left: 10% !important;
-    padding-right: 10% !important;
+    width: 90%;
   }
   .hero_section .hero-carousel {
     display: none !important;
@@ -70,81 +71,91 @@
   }
 }
 @media screen and (max-width: 960px) {
-  .container {
+  .landing_page_body .container {
     width: 95% !important;
   }
-  .flow-text {
+  .landing_page_body .flow-text {
     font-size: 0.9rem !important;
   }
-  .section_heading {
+  .landing_page_body .section_heading {
     font-size: 1.8rem !important;
   }
-  .owl-carousel {
+  .landing_page_body .owl-carousel {
     width: 100%;
     min-height: auto;
   }
-  .main_header .menu_button {
-    display: block;
+  .landing_page_body .main_header .menu_button {
+    display: block !important;
+    left: 1rem;
   }
-  .main_header .nav-wrapper {
+  .landing_page_body .main_header .nav-wrapper {
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 0;
-    padding-top: 3rem !important;
+    padding: 0 !important;
     padding-left: 3%;
     padding-right: 3%;
+    height: 5rem;
   }
-  .main_header .nav-wrapper .brand-logo {
-    left: 10% !important;
-    top: 15% !important;
+  .landing_page_body .main_header .nav-wrapper .brand-logo {
+    left: 4rem !important;
+    top: 18% !important;
     margin: 0 !important;
     transform: translateX(0) !important;
   }
-  .main_header .nav-wrapper .brand-logo img {
+  .landing_page_body .main_header .nav-wrapper .brand-logo img {
     width: 7rem;
   }
-  .main_header .nav-wrapper .header-right-container .row {
+  .landing_page_body .main_header .nav-wrapper .header-right-container .row {
     display: flex;
     justify-content: flex-end !important;
   }
-  .main_header .nav-wrapper .header-right-container .header-input {
+  .landing_page_body .main_header .nav-wrapper .header-right-container .header-input {
     width: 40% !important;
     display: none !important;
   }
-  .main_header .nav-wrapper .header-right-container .loginBtn, .main_header .nav-wrapper .header-right-container .joinBtn {
+  .landing_page_body .main_header .nav-wrapper .header-right-container .loginBtn, .landing_page_body .main_header .nav-wrapper .header-right-container .joinBtn {
     font-size: 0.8rem !important;
+    min-width: 5rem;
     padding: 0.7rem 1rem !important;
   }
-  .main_header .nav-content .tabs {
+  .landing_page_body .main_header .nav-content .tabs {
     display: flex !important;
     justify-content: flex-start;
   }
-  .main_header .nav-content .tabs .tab span {
+  .landing_page_body .main_header .nav-content .tabs .tab span {
     min-width: 28px;
     height: 28px;
   }
-  .main_header .nav-content .tabs .tab a {
+  .landing_page_body .main_header .nav-content .tabs .tab a {
     padding: 0 10px !important;
     font-size: 0.7rem !important;
   }
-  .second_section .inner_container {
+  .landing_page_body .second_section .container .inner_container {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
   }
-  .second_section .left-wrapper {
+  .landing_page_body .second_section .container .left-wrapper {
     width: 100% !important;
   }
-  .second_section .left-wrapper .flow-text {
+  .landing_page_body .second_section .container .left-wrapper button {
+    font-size: 0.8rem;
+    line-height: 0 !important;
+    height: 3rem;
+  }
+  .landing_page_body .second_section .container .left-wrapper .flow-text {
     font-size: 1.1rem !important;
     padding-right: 0 !important;
   }
-  .second_section .left-wrapper .section_heading {
-    font-size: 2.7rem !important;
+  .landing_page_body .second_section .container .left-wrapper .section_heading {
+    font-size: 2rem !important;
   }
-  .second_section .cards_flex_wrapper {
+  .landing_page_body .second_section .container .left-wrapper .section_heading span {
+    font-size: 2rem !important;
+  }
+  .landing_page_body .second_section .container .cards_flex_wrapper {
     width: 100% !important;
     display: flex;
     flex-direction: row;
@@ -153,49 +164,53 @@
     padding: 0 !important;
     margin-top: 2rem !important;
   }
-  .second_section .cards_flex_wrapper .col {
+  .landing_page_body .second_section .container .cards_flex_wrapper .flow-text {
+    font-size: 0.8rem !important;
+    width: 100%;
+  }
+  .landing_page_body .second_section .container .cards_flex_wrapper .col {
     width: 25% !important;
     min-height: 150px !important;
     margin-left: 0 !important;
   }
-  .second_section .cards_flex_wrapper .col .icon {
+  .landing_page_body .second_section .container .cards_flex_wrapper .col .icon {
     width: 60px !important;
     height: 60px !important;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  .second_section .cards_flex_wrapper .col .icon img {
+  .landing_page_body .second_section .container .cards_flex_wrapper .col .icon img {
     min-width: 60% !important;
   }
-  .second_section .cards_flex_wrapper .col .icon.deposite img {
+  .landing_page_body .second_section .container .cards_flex_wrapper .col .icon.deposite img {
     min-width: 90% !important;
   }
-  .second_section .cards_flex_wrapper p {
+  .landing_page_body .second_section .container .cards_flex_wrapper p {
     margin-top: 1rem !important;
-    font-size: 0.8rem !important;
+    font-size: 0.7rem !important;
   }
-  .third_section {
+  .landing_page_body .third_section {
     min-height: auto !important;
     padding-top: 1rem !important;
     padding-bottom: 4rem;
   }
-  .third_section .container .section_heading {
+  .landing_page_body .third_section .container .section_heading {
     width: 100%;
     font-size: 1.5rem !important;
   }
-  .third_section .container p {
+  .landing_page_body .third_section .container p {
     width: 100%;
     font-weight: 500;
   }
-  .third_section .container .video_container {
+  .landing_page_body .third_section .container .video_container {
     border-radius: 1rem !important;
     margin-top: 2rem !important;
   }
-  .forth_section .container .section_heading {
+  .landing_page_body .forth_section .container .section_heading {
     font-size: 1.5rem !important;
   }
-  .forth_section .container button {
+  .landing_page_body .forth_section .container button {
     border-radius: 2rem;
     padding: 1.5rem 1.8rem !important;
     line-height: 0 !important;
@@ -205,45 +220,48 @@
     font-weight: 600;
     margin: 1.5rem 0.2rem !important;
   }
-  .forth_section .container .promotion_carousel {
+  .landing_page_body .forth_section .container .promotion_carousel {
     min-height: auto !important;
   }
-  .forth_section .container .games_carousel .item {
+  .landing_page_body .forth_section .container .games_carousel .item {
     border-radius: 1rem;
     min-width: 18%;
-    height: 40vw;
+    height: 40vw !important;
   }
-  .fifth_section {
+  .landing_page_body .forth_section .container .games_carousel .owl-dots, .landing_page_body .forth_section .container .games_carousel .owl-nav {
+    display: none !important;
+  }
+  .landing_page_body .fifth_section {
     background: #2c2c2c;
     padding-top: 1rem;
     padding-bottom: 2rem;
   }
-  .fifth_section .container {
+  .landing_page_body .fifth_section .container {
     max-width: 90% !important;
   }
-  .fifth_section .container .section_heading {
+  .landing_page_body .fifth_section .container .section_heading {
     font-size: 1.5rem !important;
   }
-  .fifth_section .container .game_providers_carousel {
+  .landing_page_body .fifth_section .container .game_providers_carousel {
     min-height: auto !important;
     padding-bottom: 5% !important;
   }
-  .fifth_section .container .game_providers_carousel .owl-dots {
+  .landing_page_body .fifth_section .container .game_providers_carousel .owl-dots {
     display: none !important;
   }
-  .fifth_section .container .game_providers_carousel .item {
+  .landing_page_body .fifth_section .container .game_providers_carousel .item {
     height: 20vw;
   }
-  .sixth_section .container .row .section_heading {
+  .landing_page_body .sixth_section .container .row .section_heading {
     font-weight: 700;
     font-size: 1.8rem !important;
   }
-  .sixth_section .container .row .flow-text {
+  .landing_page_body .sixth_section .container .row .flow-text {
     font-size: 1rem !important;
     margin: 0 !important;
     font-weight: 600;
   }
-  .sixth_section .container .row .btn-large {
+  .landing_page_body .sixth_section .container .row .btn-large {
     font-size: 1rem !important;
     background: white !important;
     color: black !important;
@@ -251,14 +269,14 @@
     border-radius: 2rem;
     margin-top: 1rem;
   }
-  .sixth_section .container .row .banner {
+  .landing_page_body .sixth_section .container .row .banner {
     position: relative;
     width: 50vw;
   }
-  footer {
+  .landing_page_body footer {
     overflow-x: hidden;
   }
-  footer .container .nav-wrapper {
+  .landing_page_body footer .container .nav-wrapper {
     position: absolute;
     width: 100%;
     display: flex !important;
@@ -266,74 +284,80 @@
     right: 0;
     bottom: 0%;
   }
-  footer .container .nav-wrapper .social-media {
+  .landing_page_body footer .container .nav-wrapper .social-media {
     right: auto;
     left: 0;
     bottom: 8%;
   }
-  footer .container .nav-wrapper ul li {
+  .landing_page_body footer .container .nav-wrapper ul li {
     font-size: 0.7rem;
     font-weight: 500 !important;
   }
-  footer .container .col.wrapper h4 {
+  .landing_page_body footer .container .col.wrapper h4 {
     font-size: 1rem;
   }
-  footer .container .col p {
+  .landing_page_body footer .container .col p {
     font-size: 0.7rem !important;
-    color: #d7d7d7;
+    color: var(--gray-text-color) !important;
   }
 }
 @media screen and (max-width: 600px) {
-  .second_section .cards_flex_wrapper .col {
+  .landing_page_body .second_section .container .cards_flex_wrapper .col {
     width: 50% !important;
     min-height: 150px !important;
     margin-left: 0 !important;
   }
-  .sixth_section .container .row {
+  .landing_page_body .sixth_section .container .row {
     flex-direction: column !important;
   }
-  .sixth_section .container .row .col {
+  .landing_page_body .sixth_section .container .row .col {
     margin-left: 0 !important;
     width: 100% !important;
     align-items: center !important;
     text-align: center;
   }
-  .sixth_section .container .row .banner {
+  .landing_page_body .sixth_section .container .row .banner {
     position: relative;
     width: 80vw;
   }
-  footer {
+  .landing_page_body footer {
     padding-bottom: 40%;
   }
-  footer .container {
+  .landing_page_body footer .container {
     display: flex !important;
     flex-direction: column !important;
   }
-  footer .container .col {
+  .landing_page_body footer .container .col {
     display: flex !important;
     flex-direction: column !important;
     width: 100% !important;
   }
-  footer .container .col p {
+  .landing_page_body footer .container .col p {
     font-size: 0.9rem;
   }
-  footer .container .nav-wrapper {
+  .landing_page_body footer .container .nav-wrapper {
     flex-wrap: wrap;
     flex-direction: row !important;
     width: 100%;
     justify-content: flex-start !important;
     bottom: -20%;
   }
-  footer .container .nav-wrapper ul li {
+  .landing_page_body footer .container .nav-wrapper ul {
+    margin-left: 1.5rem;
+  }
+  .landing_page_body footer .container .nav-wrapper ul li {
     width: 50%;
     padding: 0 3%;
     margin-top: 3%;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
-  footer .container .nav-wrapper.social-media {
+  .landing_page_body footer .container .nav-wrapper.social-media {
     bottom: -5% !important;
   }
-  footer .container .nav-wrapper.social-media ul i {
+  .landing_page_body footer .container .nav-wrapper.social-media ul {
+    margin-left: 1.5rem !important;
+  }
+  .landing_page_body footer .container .nav-wrapper.social-media ul i {
     width: 50%;
     padding: 3% 2rem !important;
     margin-top: 0 !important;

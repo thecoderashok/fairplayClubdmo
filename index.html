@@ -1,39 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Demo Landing Page</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fair Club Landing page</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="css/meterial-icon.css" />
+    <link type="text/css" rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/owlcarousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/meterialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/Responsive.css" />
+  </head>
 
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="CSS/style.css">
-    <link rel="stylesheet" href="CSS/Responsive.css">
-    <!-- <link rel="stylesheet" href="responsive.css"> -->
-
-    <link rel="stylesheet" href="fontawesome/css/all.min.css">
-   
-
-
-    <link type="text/css" rel="stylesheet" href="CSS/fonts.css">
-
-    <script src="JS/jquery-3.6.0.min.js"></script>
-
-    <script src="JS/owlcarousel.js"></script>
-    <script src="JS/owlcarousel.min.js"></script>
-
-    <link rel="stylesheet" href="CSS/owlcarousel.min.css">
-    <link  rel="stylesheet" href="CSS/owl.theme.default.min.css">
-
-     <!-- Compiled and minified CSS -->
-     <link rel="stylesheet" href="CSS/meterialize.min.css">
-
-      <!--Import Google Icon Font-->
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-   
-</head>
-   <body data-theme="">
+  <body data-theme="" class="landing_page_body">
     <header class="main_header">
       <div class="menu_button" id="menuBtn">
         <i class="fa-solid fa-bars-staggered"></i>
@@ -44,205 +26,215 @@
           <i class="fa-solid fa-xmark"></i>
         </div>
       </div>
-        <nav class="nav-extended">
-            <div class="nav-wrapper">
-              
-              <a href="#" class="brand-logo">
-                <img src="Assets/Images/logo.png" alt="">
-              </a>
-              
-
-
-              <div class="header-right-container">
-                <form class="col s12">
-                  <div class="row">
-                    <!-- <div class="country-select">
+      <nav class="nav-extended">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo">
+            <img src="Assets/Images/logo.png" alt="" />
+          </a>
+          <div class="header-right-container">
+            <form class="col s12">
+              <div class="row">
+                <!-- <div class="country-select">
                       IN
                       <i class="material-icons ">arrow_drop_down</i>
                     </div> -->
-                    <div class="input-field col s12 header-input">
-                      <input id="email" type="email" class="validate">
-                      <label for="email">Email / Mobile Number</label>
-                      <a href="#">Remember me</a>
-                      <!-- <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
-                    </div>
+                <div class="input-field col s12 header-input">
+                  <input id="email" type="email" class="validate" />
+                  <label for="email">Email / Mobile Number</label>
+                  <a href="#">Remember me</a>
+                  <!-- <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
+                </div>
 
-                    <div class="input-field col s12 header-input">
-                      <input id="password" type="email" class="validate">
-                      <label for="password">Password</label>
-                      <a href="#" >Forgot Password</a>
-                      <!-- <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
-                    </div>
+                <div class="input-field col s12 header-input">
+                  <input id="password" type="email" class="validate" />
+                  <label for="password">Password</label>
+                  <a href="#">Forgot Password</a>
+                  <!-- <span class="helper-text" data-error="wrong" data-success="right">Helper text</span> -->
+                </div>
 
-                    <button class="btn waves-effect waves-light loginBtn" type="submit" name="action">
-                      Login
-                    </button>
-                    
-                    <button class="btn waves-effect waves-light joinBtn" type="submit" name="action">
-                      Join Now
-                    </button>
+                <button
+                  class="btn waves-effect waves-light loginBtn"
+                  type="submit"
+                  name="action"
+                >
+                  Login
+                </button>
 
-                    <div class="theme_button_container">
-                      <i id="lightModeBtn" class="fa-solid fa-sun"></i>
-                      <i id="darkModeBtn" class="fa-solid fa-moon"></i>
-                    </div>
-                  </div>
-                </form>
+                <button
+                  class="btn waves-effect waves-light joinBtn"
+                  type="submit"
+                  name="action"
+                >
+                  Join Now
+                </button>
+
+                <div class="theme_button_container">
+                  <i id="lightModeBtn" class="fa-solid fa-sun"></i>
+                  <i id="darkModeBtn" class="fa-solid fa-moon"></i>
+                </div>
               </div>
-            </div>
+            </form>
+          </div>
+        </div>
 
-            <div class="nav-content" >
-                <span id="scrollbtn_right" class="scrollBtn scroll_right_btn" >
-                  <i class="fa-solid fa-angle-right"></i>
-                </span>
-                <span id="scrollbtn_left" class="scrollBtn scroll_left_btn">
-                  <i class="fa-solid fa-angle-left"></i>
-                </span>
+        <div class="nav-content">
+          <span id="scrollbtn_right" class="scrollBtn scroll_right_btn">
+            <i class="fa-solid fa-angle-right"></i>
+          </span>
+          <span id="scrollbtn_left" class="scrollBtn scroll_left_btn">
+            <i class="fa-solid fa-angle-left"></i>
+          </span>
 
-              <ul class="tabs tabs-transparent" id="header_tab_carousel">
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/inplay.png" alt="">
-                  </span>
-                  <a href="#test1" class="active">INPLAY</a>
-                </li>
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/cricket-ball.png" alt="">
-                  </span>
-                  <a href="#test2">CRICKET</a></li>
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/football.png" alt="">
-                  </span>
-                  <a href="#test3">SOCCER</a></li>
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/tennis.png" alt="">
-                  </span>
-                  <a href="#test4">tENNIS</a></li>
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/premium.png" alt="">
-                  </span>
-                  <a href="#test4">premium sportsbook</a></li>
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/casino.png" alt="">
-                  </span>
-                  <a href="#test4">live casino</a></li>
-                <li class="tab">
-                  <span class="icon">
-                    <img src="Assets/Icons/live-card.png" alt="">
-                  </span>
-                  <a href="#test4">live card</a></li>
-                <li class="tab">
-                  <span class="icon"></span>
-                  <a href="#test4">slot games</a></li>
-              </ul>
-            </div>
-
-      
-          </nav>
+          <ul class="tabs tabs-transparent" id="header_tab_carousel">
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/inplay.png" alt="" />
+              </span>
+              <a href="#test1" class="active">INPLAY</a>
+            </li>
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/cricket-ball.png" alt="" />
+              </span>
+              <a href="#test2">CRICKET</a>
+            </li>
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/football.png" alt="" />
+              </span>
+              <a href="#test3">SOCCER</a>
+            </li>
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/tennis.png" alt="" />
+              </span>
+              <a href="#test4">tENNIS</a>
+            </li>
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/premium.png" alt="" />
+              </span>
+              <a href="#test4">premium sportsbook</a>
+            </li>
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/casino.png" alt="" />
+              </span>
+              <a href="#test4">live casino</a>
+            </li>
+            <li class="tab">
+              <span class="icon">
+                <img src="Assets/Icons/live-card.png" alt="" />
+              </span>
+              <a href="#test4">live card</a>
+            </li>
+            <li class="tab">
+              <span class="icon"></span>
+              <a href="#test4">slot games</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
-
-
-    <section  class="hero_section">
-          <div class="owl-carousel owl-theme hero-carousel">
-            <div class="item hero_banner_container">
-              <img src="Assets/Images/banner1.jpeg" alt="">
-            </div>
-            <div class="item two">
-              <img src="Assets/Images/banner2.jpeg" alt="">
-            </div>
-            <div class="item three">
-              <img src="Assets/Images/banner3.jpeg" alt="">
-            </div>
-            <div class="item four">
-              <img src="Assets/Images/banner4.jpeg" alt="">
-            </div>
-         </div>
-          <div class="owl-carousel owl-theme hero-carousel mobile">
-            <div class="item hero_banner_container">
-              <img  src="Assets/Images/mobilebanner1.jpeg" alt="">
-            </div>
-            <div class="item two">
-              <img src="Assets/Images/mobilebanner2.jpeg" alt="">
-            </div>
-            <div class="item three">
-              <img src="Assets/Images/mobilebanner3.jpeg" alt="">
-            </div>
-            <div class="item four">
-              <img src="Assets/Images/mobilebanner4.jpeg" alt="">
-            </div>
-         </div>
+    <section class="hero_section">
+      <div class="owl-carousel owl-theme hero-carousel">
+        <div class="item hero_banner_container">
+          <img src="Assets/Images/banner1.jpeg" alt="" />
+        </div>
+        <div class="item two">
+          <img src="Assets/Images/banner2.jpeg" alt="" />
+        </div>
+        <div class="item three">
+          <img src="Assets/Images/banner3.jpeg" alt="" />
+        </div>
+        <div class="item four">
+          <img src="Assets/Images/banner4.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="owl-carousel owl-theme hero-carousel mobile">
+        <div class="item hero_banner_container">
+          <img src="Assets/Images/mobilebanner1.jpeg" alt="" />
+        </div>
+        <div class="item two">
+          <img src="Assets/Images/mobilebanner2.jpeg" alt="" />
+        </div>
+        <div class="item three">
+          <img src="Assets/Images/mobilebanner3.jpeg" alt="" />
+        </div>
+        <div class="item four">
+          <img src="Assets/Images/mobilebanner4.jpeg" alt="" />
+        </div>
+      </div>
     </section>
 
     <section class="second_section">
       <div class="container">
-      <div class="row inner_container">
-        <div class="col s6 left-wrapper">
-          <h3 class="section_heading"><span>300% BONUS</span> ON YOUR FIRST DEPOSIT.</h3>
-          <p class="flow-text">Welcome to FairPlay- the world’s biggest betting exchange. We offer a wide range of options to bet on including sportsbook, live cards, live casino & horse racing.
-          </p>
+        <div class="row inner_container">
+          <div class="col s6 left-wrapper">
+            <h3 class="section_heading">
+              <span>300% BONUS</span> ON YOUR FIRST DEPOSIT.
+            </h3>
+            <p class="flow-text">
+              Welcome to FairPlay- the world’s biggest betting exchange. We
+              offer a wide range of options to bet on including sportsbook, live
+              cards, live casino & horse racing.
+            </p>
 
-          <button class="waves-effect waves-light btn-large">JOIN NOW</button>
+            <button class="waves-effect waves-light btn-large">JOIN NOW</button>
+          </div>
 
-        </div>
-        
           <div class="row cards_flex_wrapper">
-            <div class="col s6 text-center ">
+            <div class="col s6 text-center">
               <div class="icon deposite">
-
-                <img  src="Assets/Icons/deposit-withdrawl.png" alt="">
+                <img src="Assets/Icons/deposit-withdrawl.png" alt="" />
               </div>
-              <p class="flow-text bold-600">Instant Withdrawals & Deposits
-              </p>
+              <p class="flow-text bold-600">Instant Withdrawals & Deposits</p>
             </div>
             <div class="col s6">
               <div class="icon">
-                
-                <img  src="Assets/Icons/live-stream.png" alt="">
+                <img src="Assets/Icons/live-stream.png" alt="" />
               </div>
               <p class="flow-text bold-600">Live Stream Of Events</p>
             </div>
-            <div class="col s6 ">
+            <div class="col s6">
               <div class="icon">
-
-                <img  src="Assets/Icons/customer-support.png" alt="">
+                <img src="Assets/Icons/customer-support.png" alt="" />
               </div>
               <p class="flow-text bold-600">24/7 Customer Service</p>
             </div>
             <div class="col s6">
               <div class="icon">
-                
-                <img src="Assets/Icons/referral.png" alt="">
+                <img src="Assets/Icons/referral.png" alt="" />
               </div>
               <p class="flow-text bold-600">15% Referral Bonus</p>
             </div>
           </div>
-        
-
+        </div>
       </div>
-    </div>
     </section>
 
-    
     <section class="third_section">
       <div class="container">
         <div class="row inner_container">
           <div class="col s12">
             <h3 class="section_heading">WHY IS FAIRPLAY BETTER THAN OTHERS?</h3>
-            <p class="flow-text">FairPlay is India’s first and most trusted betting exchange that offers the likes of sports book and live casino and live Indian card games. Unlike most other betting sites, on FairPlay a user bets against other players and not the house thus maintaining transparency and increasing a player’s chances of winning.
+            <p class="flow-text">
+              FairPlay is India’s first and most trusted betting exchange that
+              offers the likes of sports book and live casino and live Indian
+              card games. Unlike most other betting sites, on FairPlay a user
+              bets against other players and not the house thus maintaining
+              transparency and increasing a player’s chances of winning.
             </p>
-            <p class="flow-text">The greatest odds in the market are on FairPlay which means you win exceptionally more on FairPlay than anywhere else!
+            <p class="flow-text">
+              The greatest odds in the market are on FairPlay which means you
+              win exceptionally more on FairPlay than anywhere else!
             </p>
           </div>
         </div>
 
         <div class="video_container">
-          <video  src="landing-promotion.mp4" ></video>
+          <video src="landing-promotion.mp4"></video>
         </div>
       </div>
     </section>
@@ -252,45 +244,33 @@
         <h3 class="section_heading">KNOW MORE ABOUT GAMES</h3>
 
         <div class="owl-carousel owl-theme games_carousel">
-          <div class="item waves-effect ">
-            
-          </div>
-          <div class="item two waves-effect ">
-            
-          </div>
-          <div class="item three waves-effect ">
-            
-          </div>
-          <div class="item four waves-effect ">
-            
-          </div>
-       </div>
+          <div class="item waves-effect"></div>
+          <div class="item two waves-effect"></div>
+          <div class="item three waves-effect"></div>
+          <div class="item four waves-effect"></div>
+        </div>
 
-       <div class="col s12 text-center promotion_wrapper">
-         <h3 class="section_heading">PROMOTIONS</h3>
-         <p class="flow-text">Make the most of exciting offers ever so often on Fairplay! Watch out for various bonus offers and exciting contests!</p>
+        <div class="col s12 text-center promotion_wrapper">
+          <h3 class="section_heading">PROMOTIONS</h3>
+          <p class="flow-text">
+            Make the most of exciting offers ever so often on Fairplay! Watch
+            out for various bonus offers and exciting contests!
+          </p>
 
-         <div class="owl-carousel owl-theme promotion_carousel ">
-          <div class="item waves-effect ">
-            
+          <div class="owl-carousel owl-theme promotion_carousel">
+            <div class="item waves-effect"></div>
+            <div class="item two waves-effect"></div>
+            <div class="item three waves-effect"></div>
+            <div class="item four waves-effect"></div>
           </div>
-          <div class="item two waves-effect ">
-            
-          </div>
-          <div class="item three waves-effect ">
-            
-          </div>
-          <div class="item four waves-effect ">
-            
-          </div>
-         </div>
 
-         <div class="col s12 text-center">
-          <button class="waves-effect waves-light btn-large">KNOW MORE</button>
-          <button class="waves-effect waves-light btn-large">JOIN NOW</button>
-         </div>
-
-       </div>
+          <div class="col s12 text-center">
+            <button class="waves-effect waves-light btn-large">
+              KNOW MORE
+            </button>
+            <button class="waves-effect waves-light btn-large">JOIN NOW</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -300,90 +280,127 @@
           <h3 class="section_heading">GAME PROVIDERS</h3>
 
           <div class="col s12 text-center">
-            <div class="owl-carousel owl-theme game_providers_carousel ">
-              <div class="item">
-                
-              </div>
-              <div class="item">
-                
-              </div>
-              <div class="item">
-                
-              </div>
-              <div class="item">
-                
-              </div>
-             </div>
+            <div class="owl-carousel owl-theme game_providers_carousel">
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+              <div class="item"></div>
+            </div>
           </div>
-
         </div>
       </div>
     </section>
 
     <section class="sixth_section">
       <div class="container">
-        <div class="row ">
-        <div class="col s6">
-          <img class="banner" src="Assets/Images/fairplay-app-banner.jpg" alt="">
+        <div class="row">
+          <div class="col s6">
+            <img
+              class="banner"
+              src="Assets/Images/fairplay-app-banner.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col s6">
+            <h3 class="section_heading">DOWNLOAD THE APP</h3>
+            <p class="flow-text">
+              Now download the FairPlay app and get easier, quicker access to
+              your winnings!
+            </p>
+            <button class="waves-effect waves-light btn-large">
+              DOWNLOAD APP
+            </button>
+            <span class="download_instruction"
+              >Download now outside Google Playstore</span
+            >
+          </div>
         </div>
-        <div class="col s6">
-          <h3 class="section_heading">DOWNLOAD THE APP</h3>
-          <p class="flow-text">
-            Now download the FairPlay app and get easier, quicker access to your winnings!
-          </p>
-          <button class="waves-effect waves-light btn-large">DOWNLOAD APP</button>
-          <span class="download_instruction">Download now outside Google Playstore</span>
-        </div>
-      </div>
       </div>
     </section>
 
-    
-      <div class="app_download_cta">
-        <span>Download App</span>
-        <i class="fa-solid fa-download"></i>
-      </div>
-      <div class="helpline_cta">
-        <span>Helpline</span>
-        <a href="">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="">
-          <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-       
-      </div>
-    
+    <div class="app_download_cta">
+      <span>Download App</span>
+      <i class="fa-solid fa-download"></i>
+    </div>
+    <div class="helpline_cta">
+      <span>Helpline</span>
+      <a href="">
+        <svg
+          _ngcontent-wmv-c58=""
+          xmlns="http://www.w3.org/2000/svg"
+          width="34"
+          height="34"
+          viewBox="0 0 34 34"
+        >
+          <path
+            _ngcontent-wmv-c58=""
+            id="insta"
+            d="M17.709,11.968a5.669,5.669,0,1,0,5.669,5.669A5.681,5.681,0,0,0,17.709,11.968Zm17,5.669c0-2.348.021-4.674-.111-7.017a10.11,10.11,0,0,0-2.743-7.128C29.864,1.5,27.452.88,24.731.749,22.383.617,20.057.638,17.714.638S13.04.617,10.7.749A10.109,10.109,0,0,0,3.569,3.492C1.574,5.486.958,7.9.826,10.619.694,12.967.715,15.293.715,17.637s-.021,4.674.111,7.017a10.11,10.11,0,0,0,2.743,7.128c1.995,1.995,4.406,2.611,7.128,2.743,2.347.132,4.674.111,7.017.111s4.674.021,7.017-.111a10.11,10.11,0,0,0,7.128-2.743c1.995-1.995,2.611-4.406,2.743-7.128.136-2.343.111-4.67.111-7.017Zm-17,8.723a8.723,8.723,0,1,1,8.722-8.723A8.71,8.71,0,0,1,17.709,26.359Zm9.08-15.765a2.035,2.035,0,1,1,.78-.154,2.035,2.035,0,0,1-.78.154Z"
+            transform="translate(-0.714 -0.637)"
+            fill="white"
+          ></path>
+        </svg>
+      </a>
+      <a href="">
+        <svg _ngcontent-wmv-c58="" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none">
+          <path _ngcontent-wmv-c58="" d="M17.7139 0.636719C8.32592 0.636719 0.713867 8.24877 0.713867 17.6367C0.713867 27.0247 8.32592 34.6367 17.7139 34.6367C27.1018 34.6367 34.7139 27.0247 34.7139 17.6367C34.7139 8.24877 27.1018 0.636719 17.7139 0.636719ZM25.8837 13.4512C25.8951 13.6296 25.8951 13.8155 25.8951 13.9977C25.8951 19.5682 21.6527 25.9849 13.9003 25.9849C11.5096 25.9849 9.29355 25.2905 7.42659 24.0952C7.76811 24.1331 8.09445 24.1483 8.44356 24.1483C10.4168 24.1483 12.2306 23.4805 13.6764 22.3497C11.8246 22.3117 10.2688 21.0974 9.73753 19.4278C10.3864 19.5227 10.9708 19.5227 11.6386 19.3519C10.6851 19.1582 9.82813 18.6403 9.21317 17.8863C8.59822 17.1323 8.26326 16.1887 8.26521 15.2157V15.1626C8.82302 15.4776 9.47949 15.6711 10.1663 15.6977C9.58894 15.3129 9.11543 14.7915 8.78777 14.1799C8.46012 13.5683 8.28844 12.8853 8.28797 12.1914C8.28797 11.4059 8.49289 10.6887 8.86097 10.0664C9.9193 11.3692 11.2399 12.4348 12.7371 13.1938C14.2342 13.9528 15.8743 14.3883 17.5507 14.472C16.9549 11.607 19.0951 9.2885 21.6679 9.2885C22.8822 9.2885 23.975 9.79699 24.7453 10.6166C25.6978 10.4383 26.6085 10.0816 27.4206 9.60346C27.1056 10.5787 26.4453 11.4021 25.5688 11.922C26.4188 11.8309 27.2384 11.5956 27.9973 11.2655C27.4244 12.1079 26.7072 12.8555 25.8837 13.4512Z" fill="white"></path>
+        </svg>
+      </a>
+      <a href="">
+        <svg _ngcontent-wmv-c58="" xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35" fill="none"><g _ngcontent-wmv-c58="" clip-path="url(#clip0_1431_905)"><path _ngcontent-wmv-c58="" fill-rule="evenodd" clip-rule="evenodd" d="M0.713867 17.7316C0.713867 26.1835 6.85228 33.2116 14.8805 34.6367V22.3585H10.6305V17.6367H14.8805V13.8585C14.8805 9.60847 17.619 7.2483 21.4921 7.2483C22.719 7.2483 24.0421 7.43672 25.269 7.62514V11.9701H23.0972C21.019 11.9701 20.5472 13.0085 20.5472 14.3316V17.6367H25.0805L24.3255 22.3585H20.5472V34.6367C28.5755 33.2116 34.7139 26.1849 34.7139 17.7316C34.7139 8.32922 27.0639 0.636719 17.7139 0.636719C8.36387 0.636719 0.713867 8.32922 0.713867 17.7316Z" fill="white"></path></g><defs _ngcontent-wmv-c58=""><clipPath _ngcontent-wmv-c58="" id="clip0_1431_905"><rect _ngcontent-wmv-c58="" width="34" height="34" fill="white" transform="translate(0.713867 0.636719)"></rect></clipPath></defs></svg>
+      </a>
+    </div>
 
     <footer>
       <div class="row container">
         <div class="col s4">
           <a class="footer_logo">
-            <img class="dark_mode_logo"  src="Assets/Images/logo.png" alt="">
-            <img class="light_mode_logo" src="Assets/Images/logo-blue.png" alt="">
+            <img class="dark_mode_logo" src="Assets/Images/logo.png" alt="" />
+            <img
+              class="light_mode_logo"
+              src="Assets/Images/logo-blue.png"
+              alt=""
+            />
           </a>
-          <p>Hattrickk is Asia’s one of the biggest gaming platforms with over 350 games and sports available.</p>
-          <p>Popular sports such as Cricket, Tennis, Football, Basketball, Volleyball and many more including Indian card games like Teen Patti and Andar Bahar are also available from various worldwide gaming providers.</p>
-          <p>With unlimited markets and odds, Hattrickk gives players the best gaming experience in the market.</p>
+          <p>
+            Hattrickk is Asia’s one of the biggest gaming platforms with over
+            350 games and sports available.
+          </p>
+          <p>
+            Popular sports such as Cricket, Tennis, Football, Basketball,
+            Volleyball and many more including Indian card games like Teen Patti
+            and Andar Bahar are also available from various worldwide gaming
+            providers.
+          </p>
+          <p>
+            With unlimited markets and odds, Hattrickk gives players the best
+            gaming experience in the market.
+          </p>
         </div>
 
         <div class="col s4 wrapper">
           <h4>100% Safe & Instant Payments</h4>
-          <p>You can make payments and receive earnings instantly via your UPI ID - so you can be sure that your money is safe and secure. All UPI platforms are accepted.</p>
+          <p>
+            You can make payments and receive earnings instantly via your UPI ID
+            - so you can be sure that your money is safe and secure. All UPI
+            platforms are accepted.
+          </p>
         </div>
 
         <div class="col s4 wrapper">
           <h4>Accepted Modes Of Payments</h4>
-          <img class="payment_options_brands_logo" src="Assets/Images/payment.png" alt="">
+          <img
+            class="payment_options_brands_logo"
+            src="Assets/Images/payment.png"
+            alt=""
+          />
 
           <div>
             <h4>Contact Us</h4>
             <p class="contact_info phone_number">
               <i class="material-icons">mail</i>
-              +1-93903729002</p>
+              +1-93903729002
+            </p>
             <p class="contact_info email">
               <i class="material-icons">phone</i>
               info@hattrickk.com
@@ -391,36 +408,31 @@
           </div>
         </div>
 
-
-        
-          <div class="nav-wrapper">
-            <ul id="nav-mobile" class="right hide-on-med-and-down">
-              <li><a >About</a></li>
-              <li><a >Ruels & Regulation</a></li>
-              <li><a >Tearms & Condition</a></li>
-              <li><a >Privacy Policy</a></li>
-              <li><a >Play Responsibly</a></li>
-            </ul>
-          </div>
-          <div class="nav-wrapper social-media">
-            <ul id="nav-mobile" class="left hide-on-med-and-down">
-              <li><a>Instagram</a></li>
-              <li><a>Facebook</a></li>
-              <li><a>Twitter</a></li>
-              <li><a>Telegrm</a></li>
-              <li><a>Whatsapp</a></li>
-            </ul>
-          </div>
-        
-      
+        <div class="nav-wrapper">
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a>About</a></li>
+            <li><a>Ruels & Regulation</a></li>
+            <li><a>Tearms & Condition</a></li>
+            <li><a>Privacy Policy</a></li>
+            <li><a>Play Responsibly</a></li>
+          </ul>
+        </div>
+        <div class="nav-wrapper social-media">
+          <ul id="nav-mobile" class="left hide-on-med-and-down">
+            <li><a>Instagram</a></li>
+            <li><a>Facebook</a></li>
+            <li><a>Twitter</a></li>
+            <li><a>Telegrm</a></li>
+            <li><a>Whatsapp</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
 
-    <!--JavaScript at end of body for optimized loading-->
-    <!-- Compiled and minified JavaScript -->
-    <script src="JS/meterialize.min.js"></script>
-
+    <script src="js/meterialize.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/owlcarousel.js"></script>
+    <script src="js/owlcarousel.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
-     <script  src="JS/main.js"></script>
-    
 </html>
